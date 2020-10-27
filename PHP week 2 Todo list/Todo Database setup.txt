@@ -1,0 +1,11 @@
+CREATE DATABASE todolists;
+
+CREATE TABLE todo (
+id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+title VARCHAR(255),
+description TEXT,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+
+INSERT INTO `todo`(`title`, `description`) VALUES ('Think About life','Study Actulized.org Think about your dreams');
+INSERT INTO `todo`(`title`, `description`) VALUES ('Travel','Bagan');
+
